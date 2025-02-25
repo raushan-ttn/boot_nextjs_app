@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 type RecipiesListType = {
   dataInfo?: { [key: string]: string | number | undefined }[];
@@ -24,7 +25,9 @@ const RecipiesList = ({ dataInfo }: RecipiesListType) => {
                 className={`${index % 2 === 0 ? "bg-gray-300" : ""}`}
               >
                 <td className="border px-4 py-2">{recipie?.id}</td>
-                <td className="border px-4 py-2">{recipie?.name}</td>
+                <td className="border px-4 py-2">
+                  <Link className="text-blue-600 hover:underline" href={`/recipie/${recipie?.id}`}>{recipie?.name}</Link>
+                </td>
                 <td className="border px-4 py-2">
                   {recipie?.prepTimeMinutes} minuts
                 </td>
