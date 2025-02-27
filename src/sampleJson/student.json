@@ -1,0 +1,226 @@
+{
+  "teachers": [
+    {
+      "id": "T001",
+      "name": "Mr. Smith",
+      "subject": "Mathematics"
+    },
+    {
+      "id": "T002",
+      "name": "Ms. Johnson",
+      "subject": "Science"
+    },
+    {
+      "id": "T003",
+      "name": "Mrs. Brown",
+      "subject": "English"
+    },
+    {
+      "id": "T004",
+      "name": "Mr. Davis",
+      "subject": "History"
+    },
+    {
+      "id": "T005",
+      "name": "Ms. Wilson",
+      "subject": "Physics"
+    },
+    {
+      "id": "T006",
+      "name": "Raushan Tiwari",
+      "subject": "Computer"
+    },
+    {
+      "id": "T007",
+      "name": "Raushan1 Kumar",
+      "subject": "Computer Science"
+    },
+    {
+      "id": "T008",
+      "name": "Raushan2 Kumar",
+      "subject": "Computer Science1"
+    }
+  ],
+  "students": [
+    {
+      "id": "S001",
+      "name": "Alice",
+      "age": 14,
+      "teacher_id": "T003"
+    },
+    {
+      "id": "S002",
+      "name": "Bob",
+      "age": 15,
+      "teacher_id": "T001"
+    },
+    {
+      "id": "S003",
+      "name": "Charlie",
+      "age": 14,
+      "teacher_id": "T005"
+    },
+    {
+      "id": "S004",
+      "name": "David",
+      "age": 16,
+      "teacher_id": "T002"
+    },
+    {
+      "id": "S005",
+      "name": "Eve",
+      "age": 15,
+      "teacher_id": "T004"
+    },
+    {
+      "id": "S006",
+      "name": "Frank",
+      "age": 14,
+      "teacher_id": "T003"
+    },
+    {
+      "id": "S007",
+      "name": "Grace",
+      "age": 15,
+      "teacher_id": "T001"
+    },
+    {
+      "id": "S008",
+      "name": "Hank",
+      "age": 16,
+      "teacher_id": "T002"
+    },
+    {
+      "id": "S009",
+      "name": "Ivy",
+      "age": 14,
+      "teacher_id": "T005"
+    },
+    {
+      "id": "S010",
+      "name": "Jack",
+      "age": 15,
+      "teacher_id": "T004"
+    },
+    {
+      "id": "S011",
+      "name": "Karen",
+      "age": 14,
+      "teacher_id": "T003"
+    },
+    {
+      "id": "S012",
+      "name": "Leo",
+      "age": 15,
+      "teacher_id": "T001"
+    },
+    {
+      "id": "S013",
+      "name": "Mona",
+      "age": 16,
+      "teacher_id": "T002"
+    },
+    {
+      "id": "S014",
+      "name": "Nate",
+      "age": 14,
+      "teacher_id": "T005"
+    },
+    {
+      "id": "S015",
+      "name": "Olivia",
+      "age": 15,
+      "teacher_id": "T004"
+    },
+    {
+      "id": "S016",
+      "name": "Paul",
+      "age": 14,
+      "teacher_id": "T003"
+    },
+    {
+      "id": "S017",
+      "name": "Quincy",
+      "age": 15,
+      "teacher_id": "T001"
+    },
+    {
+      "id": "S018",
+      "name": "Rachel",
+      "age": 16,
+      "teacher_id": "T002"
+    },
+    {
+      "id": "S019",
+      "name": "Sam",
+      "age": 14,
+      "teacher_id": "T005"
+    },
+    {
+      "id": "S020",
+      "name": "Tina",
+      "age": 15,
+      "teacher_id": "T004"
+    },
+    {
+      "id": "S021",
+      "name": "Uma",
+      "age": 14,
+      "teacher_id": "T003"
+    },
+    {
+      "id": "S022",
+      "name": "Victor",
+      "age": 15,
+      "teacher_id": "T001"
+    },
+    {
+      "id": "S023",
+      "name": "Wendy",
+      "age": 16,
+      "teacher_id": "T002"
+    },
+    {
+      "id": "S024",
+      "name": "Xander",
+      "age": 14,
+      "teacher_id": "T005"
+    },
+    {
+      "id": "S025",
+      "name": "Yara",
+      "age": 15,
+      "teacher_id": "T004"
+    },
+    {
+      "id": "S026",
+      "name": "Zane",
+      "age": 14,
+      "teacher_id": "T003"
+    },
+    {
+      "id": "S027",
+      "name": "Ava",
+      "age": 15,
+      "teacher_id": "T001"
+    },
+    {
+      "id": "S028",
+      "name": "Ben",
+      "age": 16,
+      "teacher_id": "T002"
+    },
+    {
+      "id": "S029",
+      "name": "Catherine",
+      "age": 14,
+      "teacher_id": "T005"
+    },
+    {
+      "id": "S030",
+      "name": "Derek",
+      "age": 15,
+      "teacher_id": "T004"
+    }
+  ]
+}
