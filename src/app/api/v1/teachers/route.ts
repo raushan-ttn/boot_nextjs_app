@@ -14,7 +14,10 @@ export async function GET() {
     // Return JSON response
     return NextResponse.json(teachers);
   } catch (error) {
-    return NextResponse.json({ error: "Failed to load data" }, { status: 500 });
+    return NextResponse.json(
+      { error: `Failed to load data ${error}` },
+      { status: 500 }
+    );
   }
 }
 
@@ -24,7 +27,7 @@ export async function GET() {
  * @param res
  * @returns
  */
-export async function POST(req: Request, res: Response) {
+export async function POST(req: Request) {
   // Extract request body
   const body = await req.json();
   try {
@@ -43,7 +46,10 @@ export async function POST(req: Request, res: Response) {
       JSON.stringify({ teachers, students }, null, 2)
     );
   } catch (error) {
-    return NextResponse.json({ error: "Failed to load data" }, { status: 500 });
+    return NextResponse.json(
+      { error: `Failed to load data ${error}` },
+      { status: 500 }
+    );
   }
   // Return JSON response
   return NextResponse.json(

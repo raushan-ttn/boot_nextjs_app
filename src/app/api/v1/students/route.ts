@@ -11,6 +11,9 @@ export async function GET() {
 
     return NextResponse.json(studentsiInfo);
   } catch (error) {
-    return NextResponse.json({ error: "Failed to load data" }, { status: 500 });
+    return NextResponse.json(
+      { error: `Failed to load data ${error}` },
+      { status: 500 }
+    );
   }
 }

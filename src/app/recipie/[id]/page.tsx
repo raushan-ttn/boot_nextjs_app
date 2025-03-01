@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import React from "react";
 
 type RecipePageType = {
-  params?: { [key: string]: string };
+  params: Promise<{ id: string }>;
 };
 export type RecipieDetailType = {
   id?: number;
@@ -13,8 +13,9 @@ export type RecipieDetailType = {
   prepTimeMinutes?: number;
 };
 const RecipePage = async ({ params }: RecipePageType) => {
-  if (!params?.id) return notFound();
-  const response = await fetch(`https://dummyjson.com/recipes/${params?.id}`, {
+  const id = (await params).id;
+  if (!id) return notFound();
+  const response = await fetch(`https://dummyjson.com/recipes/${id}`, {
     method: "GET",
   });
   if (!response.ok) return notFound();
