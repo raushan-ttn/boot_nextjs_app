@@ -11,6 +11,9 @@ const nextConfig: NextConfig = {
   publicRuntimeConfig: {
     RUNTIME_VARIABLE: process.env.RUNTIME_VARIABLE,
   },
+  images: {
+    domains: ["lh3.googleusercontent.com"],
+  },
 };
 
 export default withBundleAnalyzer(nextConfig);
