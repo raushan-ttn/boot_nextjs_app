@@ -19,7 +19,7 @@ export default function DashboardPage() {
     return <p className="text-center mt-10">Loading...</p>;
   }
 
-  if (!session) return null; // Avoid rendering before redirect
+  if (!session) return null;
 
   return (
     <div className="flex flex-col items-center justify-center h-screen">
