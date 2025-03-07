@@ -12,7 +12,7 @@ const nextConfig: NextConfig = {
     RUNTIME_VARIABLE: process.env.RUNTIME_VARIABLE,
   },
   images: {
-    domains: ["lh3.googleusercontent.com"],
+    domains: ["lh3.googleusercontent.com", "images.pexels.com"],
   },
 };
 
@@ -20,7 +20,6 @@ export default withBundleAnalyzer(nextConfig);
 
 // ANALYZE=true npm run build  // to run the bundle analyzer
 // npm run build // to build the app
-
 
 /*
 After running the build, it generates an interactive visualization of your JavaScript bundle.
