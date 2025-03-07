@@ -20,3 +20,11 @@ export default withBundleAnalyzer(nextConfig);
 
 // ANALYZE=true npm run build  // to run the bundle analyzer
 // npm run build // to build the app
+
+
+/*
+After running the build, it generates an interactive visualization of your JavaScript bundle.
+ The output will be available at:
+  .next/analyze/client.html (for client-side)
+  .next/analyze/server.html (for server-side)
+*/
