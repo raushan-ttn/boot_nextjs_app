@@ -22,6 +22,12 @@ const Header = () => {
           >
             Recipies
           </Link>
+          <Link
+            href="/teachers"
+            className="hover:text-blue-400 hover:underline"
+          >
+            Teachers
+          </Link>
           <Link href="/images" className="hover:text-blue-400 hover:underline">
             Images
           </Link>
